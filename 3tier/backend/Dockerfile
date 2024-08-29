@@ -5,4 +5,4 @@ WORKDIR /opt/
 RUN apt update && \
     apt install unzip openjdk-11-jdk -y && \
     unzip apache-tomcat-9.0.93.zip
-    
+    COPY 
