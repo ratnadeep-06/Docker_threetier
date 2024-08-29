@@ -1,7 +1,7 @@
 FROM ubuntu:latest
-Label microservicehost="Vr-website"
+LABEL microservicehost="Vr-website"
 RUN apt update
-Run apt install nginx -y
+RUN apt install nginx -y
 RUN rm -rf /var/www/html/index.html
 WORKDIR /var/www/html/
 COPY Vr-website/* .
