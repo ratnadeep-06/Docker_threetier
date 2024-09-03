@@ -4,7 +4,7 @@ services:
      ports:
        - '80:80'
      container_name: boxercontainer
-     valumes: 
+     volumes: 
        - myapp:/var/www/html/
      network_mode:
        bridge
