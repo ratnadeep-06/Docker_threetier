@@ -7,7 +7,7 @@ services:
      volumes: 
        - myapps:/var/www/html/
      network_mode:
-       bridge       
+          bridge       
   
     counter:
        build: ./counter/
@@ -17,7 +17,7 @@ services:
        volumes: 
         - myapps2:/var/www/html/
        network_mode:
-        bridge
+          bridge
 
 volumes: 
     myapps:         
