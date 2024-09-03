@@ -13,7 +13,7 @@ services:
        build: /root/Docker_threetier/counter/
        ports:
          - '8080:8080'
-       container_name: countercontiner
+       container_name: countercon
        volumes: 
         - myapp:/var/www/html/
        network_mode:
