@@ -23,7 +23,7 @@ services:
        build: ./supermario-game/
        ports:
          - '82:80'
-       container_name: counter123
+       container_name: mario123
        volumes: 
         - myapps3:/var/www/html/
        network_mode:
