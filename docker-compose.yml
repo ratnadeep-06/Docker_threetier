@@ -12,7 +12,7 @@ services:
     counter:
        build: /root/Docker_threetier/counter/
        ports:
-         - '8080:8080'
+         - '81:80'
        container_name: countercon
        volumes: 
         - myapps2:/var/www/html/
