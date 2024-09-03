@@ -1,0 +1,14 @@
+services:
+   counter:
+     build: .
+     ports:
+       - '80:80'
+     container_name: countercontiner
+     volumes: 
+       - myapp:/var/www/html/
+     network_mode:
+       bridge
+
+volumes: 
+    myapp:         
+     
