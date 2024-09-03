@@ -3,9 +3,9 @@ services:
      build: .
      ports:
        - '80:80'
-     container_name: boxercontainer
+     container_name: boxercontainer_2
      volumes: 
-       - myapp:/var/www/html/
+       - myapps:/var/www/html/
      network_mode:
        bridge
   
@@ -15,10 +15,10 @@ services:
          - '8080:8080'
        container_name: countercon
        volumes: 
-        - myapp:/var/www/html/
+        - myapps:/var/www/html/
        network_mode:
         bridge
 
 volumes: 
-    myapp:         
+    myapps:         
           
