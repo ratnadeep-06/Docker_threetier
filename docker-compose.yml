@@ -18,7 +18,7 @@ counter:
        - '8080:8080'
      container_name: countercontiner
      volumes: 
-       - myapp:/var/www/html/
+       - myapps:/var/www/html/
      network_mode:
        bridge
 
