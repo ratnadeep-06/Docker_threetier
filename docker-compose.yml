@@ -10,9 +10,9 @@ services:
        bridge
 
 volumes: 
-    myapp:         
-     
-   counter:
+    myapp: 
+
+counter:
      build: /Docker_threetier/counter/
      ports:
        - '8080:8080'
