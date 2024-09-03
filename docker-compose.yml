@@ -23,5 +23,5 @@ counter:
        bridge
 
 volumes: 
-    myapp:         
+    myapps:         
           
