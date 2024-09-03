@@ -9,7 +9,7 @@ services:
      network_mode:
        bridge
 
-counter:
+  counter:
      build: /root/Docker_threetier/counter/
      ports:
        - '8080:8080'
