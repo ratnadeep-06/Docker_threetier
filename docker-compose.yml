@@ -2,7 +2,7 @@ services:
     boxer:
      build: .
      ports:
-       - '82:80'
+       - '80:80'
      container_name: boxer123
      volumes: 
        - myapps:/var/www/html/
@@ -10,7 +10,7 @@ services:
        bridge       
   
     counter:
-       build: /root/Docker_threetier/counter/
+       build: ./counter/
        ports:
          - '81:80'
        container_name: counter123
