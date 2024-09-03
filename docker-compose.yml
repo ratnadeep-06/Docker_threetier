@@ -10,7 +10,7 @@ services:
        bridge
 
 counter:
-     build: /Docker_threetier/counter/
+     build: /root/Docker_threetier/counter/
      ports:
        - '8080:8080'
      container_name: countercontiner
