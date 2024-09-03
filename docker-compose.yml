@@ -12,3 +12,16 @@ services:
 volumes: 
     myapp:         
      
+   counter:
+     build: /Docker_threetier/counter/
+     ports:
+       - '8080:8080'
+     container_name: countercontiner
+     volumes: 
+       - myapp:/var/www/html/
+     network_mode:
+       bridge
+
+volumes: 
+    myapp:         
+          
