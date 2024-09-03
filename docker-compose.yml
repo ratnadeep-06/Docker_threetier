@@ -8,7 +8,6 @@ services:
        - myapp:/var/www/html/
      network_mode:
        bridge
-
   counter:
      build: /root/Docker_threetier/counter/
      ports:
