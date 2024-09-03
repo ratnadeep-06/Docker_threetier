@@ -3,7 +3,7 @@ services:
      build: .
      ports:
        - '80:80'
-     container_name: boxercontainer_2
+     container_name: boxer123
      volumes: 
        - myapps:/var/www/html/
      network_mode:
@@ -13,7 +13,7 @@ services:
        build: /root/Docker_threetier/counter/
        ports:
          - '81:80'
-       container_name: countercon
+       container_name: counter123
        volumes: 
         - myapps2:/var/www/html/
        network_mode:
