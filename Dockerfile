@@ -8,5 +8,5 @@ WORKDIR /var/www/html/
 COPY oxer.zip .
 RUN unzip oxer.zip
 RUN mv oxer-html/*  .
-EXPOSE 82
+EXPOSE 80
 CMD ["apache2ctl" , "-DFOREGROUND"]
