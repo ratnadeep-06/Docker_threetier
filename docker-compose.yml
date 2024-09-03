@@ -7,7 +7,7 @@ services:
      volumes: 
        - myapps:/var/www/html/
      network_mode:
-       bridge
+       bridge       
   
     counter:
        build: /root/Docker_threetier/counter/
@@ -15,10 +15,10 @@ services:
          - '8080:8080'
        container_name: countercon
        volumes: 
-        - myapps:/var/www/html/
+        - myapps2:/var/www/html/
        network_mode:
         bridge
 
 volumes: 
     myapps:         
-          
+    myapps2:      
