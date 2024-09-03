@@ -1,9 +1,9 @@
 services:
-    boxer:
+    index:
      build: ./index/
      ports:
        - '80:80'
-     container_name: boxer123
+     container_name: index
      volumes: 
        - myapps1:/var/www/html/
      network_mode:
@@ -13,7 +13,7 @@ services:
        build: ./counter/
        ports:
          - '83:80'
-       container_name: counter123
+       container_name: counter
        volumes: 
         - myapps2:/var/www/html/
        network_mode:
