@@ -5,7 +5,7 @@ services:
        - '80:80'
      container_name: index
      volumes: 
-       - myapps1:/var/www/html/
+       - myapps12:/var/www/html/
      network_mode:
           bridge       
   
@@ -92,7 +92,7 @@ services:
 
 
 volumes: 
-    myapps1:         
+    myapps12:         
     myapps2:
     myapps3: 
     myapps4:
