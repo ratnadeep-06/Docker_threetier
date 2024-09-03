@@ -1,0 +1,14 @@
+service:
+    boxer:
+     build: .
+     ports:
+       - '80:80'
+     container_name: boxercontainer
+     valumes: 
+       - myapp:/var/www/html/
+     network_mode:
+       bridge
+
+volumes: 
+    myapp:         
+     
