@@ -32,5 +32,6 @@ services:
 
 volumes: 
     myapps:         
-    myapps2:      
+    myapps2:
+    myapps3:      
 
