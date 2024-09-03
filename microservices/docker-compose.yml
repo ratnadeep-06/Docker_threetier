@@ -83,7 +83,7 @@ services:
     vr-website:
        build: ./Vr-website/
        ports:
-         - '87:80'
+         - '8080:80'
        container_name: vr-website
        volumes: 
         - myapps9:/var/www/html/
