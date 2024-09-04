@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Sum:', firstNumberElement + secondNumberElement);
         
         if (userInput === (firstNumberElement + secondNumberElement)) {
-            document.getElementById('textResult').innerText = 'Congratulations you got it right';
+            document.getElementById('textResult').innerText = 'Congratulations Ratandeep got it right';
             document.getElementById('textResult').style.backgroundColor = '#028a0f';
         } else {
-            document.getElementById('textResult').innerText = 'Please Try Again !';
+            document.getElementById('textResult').innerText = 'Please Try Again Ratnadeep!';
             document.getElementById('textResult').style.backgroundColor = '#1e217c';
         }
     });
